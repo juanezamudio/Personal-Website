@@ -1,12 +1,8 @@
-$bg-img: url('/images/grand_tetons_bg.jpg');
-
 .App {
   text-align: center;
-  background-image: url('images/grand_tetons_bg.jpg');
-  background-size: cover;
-  height: 100rem;
-  width: 100rem;
-  background-repeat: no-repeat;
+  background-color: gray;
+  height: 500px;
+  width:500px;
 }
 
 .App-logo {
@@ -27,11 +23,6 @@ $bg-img: url('/images/grand_tetons_bg.jpg');
 
 .App-intro {
   font-size: large;
-}
-
-.App-background {
-  background-image: $bg-img;
-  background-size: cover;
 }
 
 @keyframes App-logo-spin {
