@@ -1,5 +1,6 @@
 {
-  "name": "new-app",
+  "name": "my-website",
+  "homepage":"https://www.juanezamudio.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
