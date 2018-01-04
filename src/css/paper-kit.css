@@ -5836,7 +5836,7 @@ textarea.form-control {
   max-width: 900px;
   margin: 0 auto;
   position: relative;
-  top: -50;
+  top: 20px;
   text-align: center;
   color: #FFFFFF;
   display: block;
@@ -5871,6 +5871,8 @@ textarea.form-control {
 .presentation-subtitle {
   font-size: 1.7em;
   color: #FFFFFF;
+  position: relative;
+  top: 75px;
 }
 
 .category-absolute {
