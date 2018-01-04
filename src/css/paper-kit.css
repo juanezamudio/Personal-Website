@@ -5668,6 +5668,7 @@ textarea.form-control {
 .page-header {
   background-color: #B2AFAB;
   background-position: center center;
+  background-image: url('../images/antoine-barres.jpg');
   background-size: cover;
   min-height: 100vh;
   max-height: 999px;
@@ -5832,9 +5833,10 @@ textarea.form-control {
 }
 
 .title-brand {
-  max-width: 730px;
+  max-width: 900px;
   margin: 0 auto;
   position: relative;
+  top: -50;
   text-align: center;
   color: #FFFFFF;
   display: block;
@@ -5910,6 +5912,7 @@ textarea.form-control {
 
 .moving-clouds {
   position: absolute;
+  background-image: url('../images/clouds.png');
   z-index: 1;
   bottom: 0;
   left: 0;
