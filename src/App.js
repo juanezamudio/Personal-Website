@@ -10,6 +10,9 @@ class App extends Component {
       <NavBar></NavBar>
       <div className="wrapper">
         <CoverPhoto></CoverPhoto>
+        <div class="main">
+        
+        </div>
       </div>
       </div>
     );

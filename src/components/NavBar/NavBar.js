@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from '../Button/Button';
 import './NavBar.scss';
 import resume from "../../images/Resume.pdf";
 
@@ -9,9 +10,15 @@ class NavBar extends Component {
         <div className="container">
             <div className="navbar-translate">
                 <button className="navbar-toggler navbar-toggler-right navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-bar"></span>
-                    <span className="navbar-toggler-bar"></span>
-                    <span className="navbar-toggler-bar"></span>
+                    <span className="navbar-toggler-bar">
+                    Juan Zamudio
+                    </span>
+                    <span className="navbar-toggler-bar">
+                    is
+                    </span>
+                    <span className="navbar-toggler-bar">
+                    Cool
+                    </span>
                 </button>
                 <a className="navbar-brand" href="https://www.creative-tim.com">Juan Zamudio</a>
             </div>
@@ -42,10 +49,11 @@ class NavBar extends Component {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a rel="noopener noreferrer" href={resume} target="_blank" className="nav-link"><i className="nc-icon nc-book-bookmark"></i>Resume</a>
+                        <a rel="noopener noreferrer" title="Resume" href={resume} target="_blank" className="nav-link"><i className="nc-icon nc-paper"></i></a>
                     </li>
                     <li className="nav-item">
-						<a rel="noopener noreferrer" href="#" target="_blank" className="btn btn-danger btn-round">Contact Me</a>
+                        {/* <a rel="noopener noreferrer" href="#" target="_blank" className="btn btn-danger btn-round">Contact Me</a> */}
+                        <Button isRound={false} hasIcon={false} isSimple={false} text="Contact Me"></Button>
 					</li>
                 </ul>
             </div>
