@@ -1,9 +1,10 @@
 {
   "name": "my-website",
-  "homepage":"https://www.juanezamudio.com",
+  "homepage": "https://www.juanezamudio.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
