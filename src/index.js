@@ -8,6 +8,24 @@ import './css/font-awesome.min.css';
 
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import datetimePicker from './bootstrap-datetimepicker.min';
+// import boostrapSwitch from './bootstrap-switch.min';
+import bootstrapMin from './bootstrap-min';
+// import jquery from './jquery-3.2.1';
+import jqueryUI from './jquery-ui-1.12.1.custom.min';
+import moment from './moment.min';
+import nouislider from './nouislider';
+// import paperKit from './paper-kit';
+// import popper from './popper';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
+datetimePicker();
+// bootstrapSwitch();
+bootstrapMin();
+// jquery();
+jqueryUI();
+moment();
+nouislider();
+// paperKit();
+// popper();
