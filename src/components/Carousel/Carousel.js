@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Carousel.scss';
-import first from '../../images/soroush-karimi.jpg';
-import second from '../../images/federico-beccari.jpg';
-import third from '../../images/joshua-stannard.jpg';
+import first_image from '../../images/soroush-karimi.jpg';
+import second_image from '../../images/federico-beccari.jpg';
+import third_image from '../../images/joshua-stannard.jpg';
 
 class Carousel extends Component {
 
@@ -21,21 +21,21 @@ class Carousel extends Component {
 								    </ol>
                                     <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        <img class="d-block img-fluid" src={second} alt="First slide"></img>
+                                        <img class="d-block img-fluid" src={first_image} alt="First slide"></img>
                                     	<div class="carousel-caption d-none d-md-block">
-                                            <p>Somewhere</p>
+                                            <p>MigraAlert</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block img-fluid" src={second} alt="Second slide"></img>
+                                        <img class="d-block img-fluid" src={second_image} alt="Second slide"></img>
                                     	<div class="carousel-caption d-none d-md-block">
-                                    	    <p>Somewhere else</p>
+                                    	    <p>BOCO</p>
                                     	</div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block img-fluid" src={third} alt="Third slide"></img>
+                                        <img class="d-block img-fluid" src={third_image} alt="Third slide"></img>
                                     	<div class="carousel-caption d-none d-md-block">
-                                    	    <p>Here it is</p>
+                                    	    <p>5C Eats</p>
                                     	</div>
                                     </div>
                                     </div>
